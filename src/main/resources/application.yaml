@@ -15,8 +15,6 @@ Spring:
     url: jdbc:mysql://localhost:3306/cbsdb?useSSL=false&allowPublicKeyRetrieval=true
 
     username: root
-    #password: T@n5257216*tji
-    #password: T@n5257000
     password: Tan@01744
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
