@@ -26,7 +26,7 @@ prioratized here. No forntend is focused in the project.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Tanjemul/CBS.git
+   git clone https://github.com/Tanjemul/core-banking-system.git
 
 2. Navigate to the project directory: cd \CBS
 
