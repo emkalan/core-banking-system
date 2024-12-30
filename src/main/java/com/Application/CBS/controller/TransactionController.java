@@ -51,4 +51,11 @@ public class TransactionController {
         log.info("Request-deposit request: {}",request);
         return ResponseEntity.ok(depositWithdrawalService.processTranRequest(request));
     }
+    @ResponseBody
+    @PostMapping("/v1/request-withdraw")
+    public ResponseEntity<GenericResponse> requestWithdraw(@RequestBody TransactionGenericRequest request) {
+        log.info("Request-withdrawal request: {}",request);
+        return ResponseEntity.ok(depositWithdrawalService.processTranRequest(request));
+    }
+
 }
